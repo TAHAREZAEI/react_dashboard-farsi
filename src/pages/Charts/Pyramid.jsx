@@ -36,7 +36,7 @@ const Pyramid = () => {
                 visible: true,
                 position: 'Inside',
                 name: 'text',
-              }}
+              }} 
             />
           </AccumulationSeriesCollectionDirective>
         </AccumulationChartComponent>
