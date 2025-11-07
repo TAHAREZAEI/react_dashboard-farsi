@@ -16,11 +16,11 @@ const ColorPicker = () => (
       <div id="preview" />
       <div className="flex justify-center items-center gap-20 flex-wrap">
         <div>
-          <p className="text-2xl font-semibold mt-2 mb-4">Inline Pallete</p>
+          <p className="text-2xl font-semibold mt-2 mb-4">پالت درون خطی </p>
           <CustomColorPicker id="inline-palette" mode="Palette" />
         </div>
         <div>
-          <p className="text-2xl font-semibold mt-2 mb-4">Inline Picker</p>
+          <p className="text-2xl font-semibold mt-2 mb-4">انتخابگر درون خطی</p>
           <CustomColorPicker id="inline-picker" mode="Picker" />
         </div>
       </div>
