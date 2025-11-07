@@ -24,7 +24,7 @@ const Ecommerce = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Earnings</p>
+              <p className="font-bold text-gray-400">درآمد</p>
               <p className="text-2xl">$63,448.78</p>
             </div>
             <button
@@ -69,19 +69,19 @@ const Ecommerce = () => {
       <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
           <div className="flex justify-between">
-            <p className="font-semibold text-xl">Revenue Updates</p>
+            <p className="font-semibold text-xl">به‌روزرسانی‌های درآمد</p>
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
                 <span>
                   <GoPrimitiveDot />
                 </span>
-                <span>Expense</span>
+                <span>هزینه</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
                   <GoPrimitiveDot />
                 </span>
-                <span>Budget</span>
+                <span>بودجه</span>
               </p>
             </div>
           </div>
@@ -94,12 +94,12 @@ const Ecommerce = () => {
                     23%
                   </span>
                 </p>
-                <p className="text-gray-500 mt-1">Budget</p>
+                <p className="text-gray-500 mt-1">بودجه</p>
               </div>
               <div className="mt-8">
                 <p className="text-3xl font-semibold">$48,487</p>
 
-                <p className="text-gray-500 mt-1">Expense</p>
+                <p className="text-gray-500 mt-1">هزینه</p>
               </div>
 
               <div className="mt-5">
@@ -125,7 +125,7 @@ const Ecommerce = () => {
             style={{ backgroundColor: currentColor }}
           >
             <div className="flex justify-between items-center ">
-              <p className="font-semibold text-white text-2xl">Earnings</p>
+              <p className="font-semibold text-white text-2xl">درآمد</p>
 
               <div>
                 <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
@@ -141,7 +141,7 @@ const Ecommerce = () => {
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
             <div>
               <p className="text-2xl font-semibold ">$43,246</p>
-              <p className="text-gray-400">Yearly sales</p>
+              <p className="text-gray-400">فروش سالانه</p>
             </div>
 
             <div className="w-40">
@@ -154,7 +154,7 @@ const Ecommerce = () => {
       <div className="flex gap-10 m-4 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
-            <p className="text-xl font-semibold">Recent Transactions</p>
+            <p className="text-xl font-semibold">معاملات اخیر</p>
             <DropDown currentMode={currentMode} />
           </div>
           <div className="mt-10 w-72 md:w-400">
@@ -190,12 +190,12 @@ const Ecommerce = () => {
               />
             </div>
 
-            <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+            <p className="text-gray-400 text-sm">۳۶ تراکنش اخیر</p>
           </div>
         </div>
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
           <div className="flex justify-between items-center gap-2 mb-10">
-            <p className="text-xl font-semibold">Sales Overview</p>
+            <p className="text-xl font-semibold">بررسی اجمالی فروش</p>
             <DropDown currentMode={currentMode} />
           </div>
           <div className="md:w-full overflow-auto">
@@ -207,7 +207,7 @@ const Ecommerce = () => {
       <div className="flex flex-wrap justify-center">
         <div className="md:w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">Weekly Stats</p>
+            <p className="text-xl font-semibold">آمار هفتگی</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
@@ -241,7 +241,7 @@ const Ecommerce = () => {
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">MedicalPro Branding</p>
+            <p className="text-xl font-semibold">برندینگ مدیکال پرو</p>
             <button type="button" className="text-xl font-semibold text-gray-400">
               <IoIosMore />
             </button>
@@ -274,7 +274,7 @@ const Ecommerce = () => {
             </div>
           </div>
           <div className="mt-2">
-            <p className="text-md font-semibold mb-2">Leaders</p>
+            <p className="text-md font-semibold mb-2">رهبران</p>
             <div className="flex gap-4">
               {medicalproBranding.leaders.map((item, index) => (
                 <img key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
@@ -291,12 +291,12 @@ const Ecommerce = () => {
               />
             </div>
 
-            <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+            <p className="text-gray-400 text-sm">۳۶ تراکنش اخیر</p>
           </div>
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">Daily Activities</p>
+            <p className="text-xl font-semibold">فعالیت های روزانه</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
@@ -308,11 +308,10 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">ری‌اکت ۱۸ به زودی منتشر می‌شود!</p>
+              <p className="text-gray-400 ">نوشته‌ی جاناتان دو</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+               این توضیح مختصری برای خبری است که اینجا نشان داده‌اید. می‌تواند اطلاعات بسیار خوبی داشته باشد.
               </p>
               <div className="mt-3">
                 <Button
