@@ -44,7 +44,7 @@ const Financial = () => {
               high="high"
             />
           </SeriesCollectionDirective>
-        </ChartComponent>
+        </ChartComponent> 
       </div>
     </div>
   );
