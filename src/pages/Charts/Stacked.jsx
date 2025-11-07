@@ -9,7 +9,7 @@ const Stacked = () => (
       <StackedChart />
     </div>
   </div>
-);
+); 
 
 export default Stacked;
  
