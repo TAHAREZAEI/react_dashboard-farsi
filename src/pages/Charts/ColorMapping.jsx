@@ -41,7 +41,7 @@ const ColorMapping = () => {
           </RangeColorSettingsDirective>
         </ChartComponent>
       </div>
-    </div>
+    </div> 
   );
 };
 
